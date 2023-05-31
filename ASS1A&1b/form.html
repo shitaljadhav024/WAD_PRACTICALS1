@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Login</title>
+    <style>
+      body{
+        margin:0;
+        padding:0;
+        font-family: sans-serif;
+      }
+      .studentForm{
+        width:300px;
+        box-shadow: 0 0 3px 0 rgba(188, 51, 51, 0.3);
+        background: rgb(212, 212, 206);
+        padding:20px;
+        margin:8% auto 0;
+        text-align:center; 
+      }
+      
+      .form-control{
+        padding:10px;
+        margin:10px 0;
+        width:40%;
+        border:1px solid rgb(55, 12, 136);
+        outline:none;
+      }
+
+    </style>
+  </head>
+<body>
+    <body>
+
+        <h2 style="text-align: center;">Student Form</h2>
+        
+        <form id="studentForm" style="background-color: rgb(208, 188, 128);">
+          
+          <div class="container" style=" text-align: center; height: 2000px;">
+            <br>
+            <label for="firstname"><b>Firstname</b></label>
+            <input type="text" id="firstName" class="form-control" placeholder="Enter Firstname" name="fname" required>
+            <br><br>   
+            <label for="lasttname"><b>Lastname</b></label>
+            <input type="text" id="lastName" class="form-control" placeholder="Enter Lastname" name="lname" required>
+            <br><br>
+            <label for="email"><b>email</b></label>
+            <input type="text" id="email" class="form-control" placeholder="Enter email" name="email" required>
+            <br><br>
+            <label for="mobile-no"><b>Mobile-no</b></label>
+            <input type="text" id="mobileno" class="form-control" placeholder="Enter Mobile-no" name="mob-no" required>
+            <br><br>   
+            <label for="address"><b>Address</b></label>
+            <input type="text" id="address" class="form-control"placeholder="Enter Address" name="address" required>
+            <br><br>
+            <button class="btn btn-primary btn-lg" id="btnAddStudent" type="button">
+                SUBMIT
+              </button>
+            
+          </div>
+        </form>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="myscript.js"></script>
+</body>
+</html>
